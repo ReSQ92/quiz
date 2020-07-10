@@ -1,0 +1,85 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.big-heading {
+    color: white;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.defaultTextBox {
+    padding: 0;
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Title section */
+
+.title {
+    background-color: #709fb0;
+    padding: 7% 15%;
+}
+
+.title-image {
+    padding: 3% 5%;
+    width: 50%;
+}
+
+.btn {
+    font-weight: 900;
+}
+
+.ready {
+    color: #092532;
+}
+/* Retro section */
+.question {
+    text-align: left;
+    line-height: 1.5;
+    color: #092532;
+    font-size: 2rem;
+}
+
+.question-no {
+    font-size: 2rem;
+    -webkit-box-shadow: -2px 11px 21px -5px rgba(117,117,117,1);
+    -moz-box-shadow: -2px 11px 21px -5px rgba(117,117,117,1);
+    box-shadow: -2px 11px 21px -5px rgba(117,117,117,1);
+    padding: 2rem;
+    display:none;   
+    margin: 3rem;
+
+}
+.question1 {
+    padding: 3%;
+}
+
+.answer {
+    line-height: 1.5;
+    color: #184d47;
+    font-size: 2rem;
+    display: none;
+}
+
+.ans-image {
+    text-align: center;
+    width: 50rem;
+    height: 50rem;
+}
